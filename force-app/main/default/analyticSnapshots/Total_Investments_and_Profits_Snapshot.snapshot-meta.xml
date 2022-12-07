@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Total_Investments__c.LastViewedDate</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Total_Investments__c.LastReferencedDate</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>Script__c.Current_Holdings__c</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Total_Investments__c.Total_Investment__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Total_Investments__c.Date__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>Script__c.Profit_Booked__c</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Total_Investments__c.Total_Profits__c</targetField>
+    </mappings>
+    <name>Total Investments and Profits Snapshot</name>
+    <runningUser>bhargav.samala@cunning-badger-8ffhp9.com</runningUser>
+    <sourceReport>MyReports/Total_Profits_and_Holdings_qwH</sourceReport>
+    <targetObject>Total_Investments__c</targetObject>
+</AnalyticSnapshot>
