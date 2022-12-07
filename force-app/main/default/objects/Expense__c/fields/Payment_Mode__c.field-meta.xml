@@ -27,9 +27,9 @@
                 <label>Axis Flipkart</label>
             </value>
             <value>
-                <fullName>Cash</fullName>
-                <default>false</default>
-                <label>Cash</label>
+                <fullName>out_of_pocket</fullName>
+                <default>true</default>
+                <label>Out of Pocket</label>
             </value>
             <value>
                 <fullName>Paytm Postpaid</fullName>
